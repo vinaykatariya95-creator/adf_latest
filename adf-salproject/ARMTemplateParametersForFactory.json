@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-salproject"
+		},
+		"ls_github_accountKey": {
+			"value": ""
+		},
+		"ls_github_properties_typeProperties_url": {
+			"value": "https://stkatavinay.dfs.core.windows.net/"
+		}
+	}
+}
