@@ -1,0 +1,15 @@
+{
+	"name": "adf-salproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6a30807d-cb32-4afe-b03e-036e51895772",
+		"tenantId": "9de01255-4ba0-4a56-ae07-d33e6fea4b92"
+	}
+}
