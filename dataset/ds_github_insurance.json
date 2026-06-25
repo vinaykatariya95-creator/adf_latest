@@ -1,0 +1,22 @@
+{
+	"name": "ds_github_insurance",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_github_Http",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "vinaykatariya95-creator/Insurance_data/refs/heads/main/Insurance%20Data%201.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
